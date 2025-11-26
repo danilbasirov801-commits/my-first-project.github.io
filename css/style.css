@@ -169,7 +169,7 @@ p{
  background-color: aliceblue;
 }
  .shift-right {
-    margin-left: 660px;
+    margin-left: 330px;
     margin-top: 6px;
   }
   /* Базовые медиа-запросы */
@@ -179,4 +179,5 @@ p{
 
 @media (min-width: 1200px) {
     /* Стили для ПК */
+
 }
