@@ -1,0 +1,182 @@
+* {
+    background-color: #e5d3e8;
+    margin: 0;
+}
+
+/* header */
+header{
+    background-color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ccc9c9;
+}
+.header-div {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+.header-div-logo{
+    background-color: aliceblue;
+}
+.header-logo {
+    background-color: aliceblue;
+    width: 160px;
+    height: 32px;
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.back-button {
+    background-color: aliceblue;
+    margin-right: 100px;
+    margin-top: 55px;
+    margin-bottom: 54px;
+}
+
+.back-button a {
+    background-color: aliceblue;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* main */
+
+.main-div {
+    position: relative;
+    margin-top: 84px;
+    margin-bottom: 20px;
+    padding: 9px;
+    border-top: 85px solid white;
+    border-bottom: 85px solid white;
+
+}
+
+.rec {
+    align-items: center;
+    width: 400px;
+font-display: block;
+}
+.rec-div {
+    text-align: center;
+}
+
+
+.heart1 {
+    position: absolute;
+    bottom: 106%;
+    left: 20%;
+    background-color: aliceblue;
+}
+.heart2 {
+    position: absolute;
+    left: 20%;
+    top: 106%;
+    background-color: aliceblue;
+}
+
+.heart3 {
+    position: absolute;
+    right: 20%;
+    bottom: 106%;
+    background-color: aliceblue;
+}
+
+.heart4 {
+    position: absolute;
+    right: 20%;
+    top: 106%;
+    background-color: aliceblue;
+}
+
+.title {
+    position: absolute;
+    right: 40%;
+    bottom: 125%;
+}
+
+.title2 {
+    position: absolute;
+    right: 46%;
+    bottom: 106%;
+    background-color: aliceblue;
+}
+
+.main-text {
+    
+    position: absolute;
+    left: 65%;
+    bottom: 10%;
+
+}
+
+/* footer */
+
+footer {
+     background-color: aliceblue;
+    max-width: 100%;
+    border-top: 2px solid #c5c1c1;
+}
+
+.footer-div {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo-svg {
+    background-color: aliceblue;
+    width: 160px;
+    height: 32px;
+}
+
+.footer-logo {
+    background-color: aliceblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.footer-text-2025 {
+    background-color: aliceblue;
+    margin-left: 100px;
+    margin-top: 53px;
+    margin-bottom: 33px;
+}
+.footer-text-group {
+   
+    margin-right: 100px;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+
+
+@media (max-width: 1388px) {
+  
+    .main-text {
+        background-color: aliceblue;
+        left: 70%;
+    }
+}
+p{
+ background-color: aliceblue;
+}
+ .shift-right {
+    margin-left: 330px;
+    margin-top: 6px;
+  }
+  /* Базовые медиа-запросы */
+@media (max-width: 767px) {
+    /* Стили для мобильных */
+}
+
+@media (min-width: 1200px) {
+    /* Стили для ПК */
+}
